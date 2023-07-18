@@ -1,0 +1,133 @@
+body{
+    background-color: #eef1f8;
+    font-family: Roboto;
+    color: #050505;
+    max-width: 1200px;
+    padding: 15px; /*espaçamento de texto */
+    margin:auto;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #8fb3ff;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    color: white;
+    font-size: 1.125rem; /* 18px / 16px = 1.125 */
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+a:hover{
+    transform: translateY(-10px);
+}
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  ul.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  ul.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+
+
+h1{
+    /*afina fonte*/
+   font-weight: 200; 
+}
+
+a{
+    color: #050505;
+}
+
+a:hover{
+    color:#e11e72;
+    transition:0.3s all;
+}
+
+#logar{
+    border: 2px solid #e11e72;
+    padding: 10px;
+    
+}
+#logar:hover{
+    background-color: #e11e72;
+    color:#050505;
+    transition:0.3s all;
+   
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: Roboto;
+}
+span{
+    color: #e11e72;
+}
+
+p{
+    line-height: 20px;
+    max-width: 450px;/*Maximo de tamanho de texto*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 580px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    border-color: gray;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width:50%;
+    background-color: #e11e72;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor:pointer;
+    background-color: #050505;
+    color:#e11e72;
+    transition:0.8s all;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
